@@ -13,6 +13,8 @@ model = keras.models.load_model('fruits_98.h5')
 
 realtime_update = st.sidebar.checkbox("Update in realtime", True)
 
+st.title("Fruits Image Classifier")
+
 uploaded_file = st.file_uploader("Choose a file")
 
 col1,col2 = st.beta_columns(2)
